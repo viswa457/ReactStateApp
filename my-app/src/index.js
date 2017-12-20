@@ -59,41 +59,8 @@ class Game extends React.Component {
   }
 }
 
-// ========================================
 
 ReactDOM.render(
   <Game />,
   document.getElementById('root')
 );
-
-
-// class Board extends React.Component{
-//   renderSquare(i){
-//   return <Square value ={i} />;
-//   }
-// }
-//
-// class Square extends React.Component{
-//   render(){
-//     return(
-//       <button className="square" onClick={() =>alert('click')}>
-//         {this.props.value}
-//       </button>
-//     );
-//   }
-// }
-
-// class ShoppingList extends React.Component{
-//   render(){
-//     return(
-//         <div className="shopping-list">
-//           <h1> Shopping List for {this.props.name} </h1>
-//           <ul>
-//             <li>Instagram</li>
-//             <li>Whatsapp</li>
-//             <li>facebook</li>
-//           </ul>
-//         </div>
-//       );
-//   }
-// }
